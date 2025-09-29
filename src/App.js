@@ -40,6 +40,10 @@ function App() {
       <NavBar />
       <Container maxWidth="lg" sx={{ pt: 3, pb: 5 }}>
         <Routes>
+         <Route
+            path="/Wallet-Tracker"
+            element={<Home expenses={expenses} incomes={incomes} />}
+          />
           <Route
             path="/"
             element={<Home expenses={expenses} incomes={incomes} />}
