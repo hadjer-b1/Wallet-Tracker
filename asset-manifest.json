@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/Wallet-Tracker/static/js/main.007193c4.js",
+    "static/media/DSC-logo.png": "/Wallet-Tracker/static/media/DSC-logo.bab09064b25f315d2c2d.png",
+    "index.html": "/Wallet-Tracker/index.html",
+    "main.007193c4.js.map": "/Wallet-Tracker/static/js/main.007193c4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.007193c4.js"
+  ]
+}
