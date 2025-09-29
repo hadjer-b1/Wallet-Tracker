@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+# 💰 Wallet Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive personal finance management application built with React. Track your income, expenses, and visualize your financial data with beautiful charts and analytics.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- **💸 Expense Management**: Add, categorize, and track your daily expenses
+- **💰 Income Tracking**: Monitor your income sources and amounts
+- **📊 Interactive Charts**: Visualize your financial data with recharts
+- **📈 Statistics Dashboard**: Get insights into your spending patterns
+- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices
+- **🌍 Multi-language Support**: Available in multiple languages
+- **📁 File Upload**: Import financial data from files
+- **🎨 Material-UI Design**: Modern and intuitive user interface
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visit the live application: [https://hadjer-b1.github.io/Wallet-Tracker](https://hadjer-b1.github.io/Wallet-Tracker)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **Frontend**: React 18, React Router DOM
+- **UI Library**: Material-UI (MUI)
+- **Charts**: Recharts
+- **Styling**: CSS3, Material-UI theming
+- **Internationalization**: Custom i18n implementation
+- **Build Tool**: Create React App
+- **Deployment**: GitHub Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installation
 
-### `npm run build`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/hadjer-b1/Wallet-Tracker.git
+   cd Wallet-Tracker
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## 🏗️ Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ExpenseForm.jsx  # Form for adding expenses
+│   ├── ExpenseList.jsx  # Display list of expenses
+│   ├── IncomeForm.jsx   # Form for adding income
+│   ├── IncomeList.jsx   # Display list of income
+│   ├── NavBar.jsx       # Navigation component
+│   └── FileUploader.jsx # File upload component
+├── pages/              # Main application pages
+│   ├── Home.jsx        # Dashboard/Home page
+│   ├── AddExpense.jsx  # Add expense page
+│   ├── Statistics.jsx  # Analytics and charts
+│   └── Investments.jsx # Investment tracking
+├── context/            # React Context for state management
+│   └── AppContext.js   # Global application state
+├── operations/         # Business logic
+│   └── analytics.js    # Data processing and analytics
+├── assets/            # Static assets
+└── data.js           # Sample/mock data
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Available Scripts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Development
+- **`npm start`** - Runs the app in development mode
+- **`npm test`** - Launches the test runner
+- **`npm run build`** - Builds the app for production
 
 ### Deployment
+- **`npm run deploy`** - Deploys the app to GitHub Pages
+- **`npm run predeploy`** - Automatically runs before deploy (builds the app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📊 Features Overview
 
-### `npm run build` fails to minify
+### Dashboard
+- Overview of total income and expenses
+- Recent transactions
+- Quick action buttons
+- Financial summary cards
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Expense Management
+- Add new expenses with categories
+- View and manage expense history
+- Category-wise expense tracking
+- Date-based filtering
+
+### Income Tracking
+- Record various income sources
+- Track income trends
+- Monthly/yearly summaries
+
+### Analytics & Statistics
+- Interactive charts and graphs
+- Spending pattern analysis
+- Category-wise breakdowns
+- Financial insights and trends
+
+## 🌐 Multi-language Support
+
+The application supports multiple languages through a custom internationalization system. Language files are managed in the `i18n.js` configuration.
+
+## 🚀 Deployment
+
+This project is automatically deployed to GitHub Pages. To deploy your own version:
+
+1. Fork this repository
+2. Update the `homepage` field in `package.json` with your GitHub Pages URL
+3. Run `npm run deploy`
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**Hadjer B1**
+- GitHub: [@hadjer-b1](https://github.com/hadjer-b1)
+
+## 🙏 Acknowledgments
+
+- Built with [Create React App](https://create-react-app.dev/)
+- UI components from [Material-UI](https://mui.com/)
+- Charts powered by [Recharts](https://recharts.org/)
+
+---
+
+⭐ If you found this project helpful, please give it a star on GitHub!
